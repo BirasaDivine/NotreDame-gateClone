@@ -9,7 +9,7 @@
 
 <body>
   <section id="header" class=" w-full relative bg-primary border-t-6 border-[#ae9142]">
-    <div class="flex justify-center xl:justify-between max-w-[1382px] mx-auto w-full">
+    <div class="flex justify-center xl:justify-between max-w-container mx-auto w-full">
       <img src="./images/first_logo-removebg-preview.png" alt="first logo">
       <div class=" hidden xl:flex flex-row gap-7 mt-4 items-start">
         <div class="flex flex-row gap-5 text-white font-semibold border-r-1 border-white px-6">
@@ -115,7 +115,7 @@
       <h1>InsideND</h1>
       <h1>Academic Calendar</h1>
     </div>
-    <div class="flex flex-col gap-10 items-center justify-between max-w-[1760px] mx-auto w-full md:flex-row ">
+    <div class="flex flex-col gap-10 items-center justify-between max-w-container mx-auto w-full md:flex-row ">
       <div class="mt-8">
         <img src="./images/logo2.png" />
       </div>
@@ -168,22 +168,24 @@
         <h1 class="underline">Contact</h1>
       </div>
     </div>
-    <div
-      class="bg-[#d2d2d2] w-full items-center flex flex-col gap-4 pt-6 text-[#555555] text-lg md:flex-row flex-wrap justify-center gap-x-20">
-      <div class="flex flex-col gap-4 items-center md:flex-row">
-        <h1>Search</h1>
-        <h1>Mobile App</h1>
-        <h1>News</h1>
-        <h1>Events</h1>
-        <h1>Visit</h1>
-      </div>
-      <div class="flex flex-col gap-4 items-center md:flex-row ">
-        <h1>Accessibility</h1>
-        <h1>Emergency</h1>
-        <h1>Closed Captioning</h1>
-        <h1>Notice of Non-Discrimination</h1>
-      </div>
+    <div class="bg-[#d2d2d2]">
+      <div
+        class=" max-w-container w-full items-center flex flex-col gap-4 pt-6 text-[#555555] text-lg md:flex-row flex-wrap justify-center gap-x-20">
+        <div class="flex flex-1 flex-col gap-4 flex-wrap items-center md:flex-row gap-x-10">
+          <h1>Search</h1>
+          <h1>Mobile App</h1>
+          <h1>News</h1>
+          <h1>Events</h1>
+          <h1>Visit</h1>
+        </div>
+        <div class="flex flex-1 flex-col gap-4 flex-wrap items-center justify-end md:flex-row gap-x-10">
+          <h1>Accessibility</h1>
+          <h1>Emergency</h1>
+          <h1>Closed Captioning</h1>
+          <h1>Notice of Non-Discrimination</h1>
+        </div>
 
+      </div>
     </div>
   </footer>
   <script src="/src/main.js" type="module">
